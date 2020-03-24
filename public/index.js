@@ -51,6 +51,7 @@ module.exports = function(currentUser, matchingUsers) {
         audience: params.audience,
         link_account_token: params.child_token,
         prevent_sign_up: true,
+        screen_hint: 'signup',
         connection: connections[0]
       });
     });
